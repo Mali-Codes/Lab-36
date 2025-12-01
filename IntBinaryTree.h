@@ -2,6 +2,11 @@
 #ifndef INTBINARYTREE_H
 #define INTBINARYTREE_H
 
+#include <iostream>
+#include <string>
+#include "IntBinaryTree.h"
+using namespace std;
+
 // The IntBinaryTree class manages a binary tree of integers.
 class IntBinaryTree {
 private:
@@ -43,10 +48,7 @@ public:
 };
 
 // Implementation file for the IntBinaryTree class
-#include <iostream>
-#include <string>
-#include "IntBinaryTree.h"
-using namespace std;
+
 
 // insert accepts a TreeNode pointer and a pointer to a node.
 // The function inserts the node into the tree pointed to by 
