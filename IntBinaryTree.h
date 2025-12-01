@@ -112,7 +112,7 @@ void IntBinaryTree::remove(const string& num) {
 
 // deleteNode deletes the node whose value 
 // member is the same as num.              
-void IntBinaryTree::deleteNode(int num, TreeNode *&nodePtr) {
+void IntBinaryTree::deleteNode(const string& num, TreeNode *&nodePtr) {
    if (num < nodePtr->value)
       deleteNode(num, nodePtr->left);
    else if (num > nodePtr->value)
