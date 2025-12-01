@@ -19,7 +19,7 @@ int main() {
          << (tree.searchNode("Banana") ? "Found" : "Not Found") << endl;
 
     
-    ifstream inFile("minicodes.txt");
+    ifstream inFile("codes.txt");
 
     if (!inFile) {
         cout << "Unable to open file minicodes.txt";
@@ -31,3 +31,5 @@ int main() {
     return 0;
 
 }
+
+void pullFromFile()
